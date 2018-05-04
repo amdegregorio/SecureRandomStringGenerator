@@ -65,5 +65,7 @@ SecureRandomString secureRandomString = new SecureRandomString();
 String generatedString = secureRandomString.generateSecureRandomString(stringLength);
 ```
 
+For more information see [Presenting the SecureRandomStringGenerator](https://amydegregorio.wordpress.com/2018/05/03/presenting-the-securerandomstringgenerator/)
+
 #### License
 This project is licensed with GNU General Public License Version 3.  See the LICENSE file for more information or go to [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html).
