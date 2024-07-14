@@ -14,7 +14,7 @@ From the command line, go to the directory containing the application.
 
 ```
 > gradlew clean build
-> java -jar .\build\libs\SecureRandomGenerator-1.0.0.jar length_of_string [characters_to_use]
+> java -jar .\build\libs\SecureRandomGenerator-1.0.1.jar length_of_string [characters_to_use]
 
 ```
 *length\_of\_string*: a positive whole number indicating the length of the string to generate
@@ -24,7 +24,7 @@ Use *-h* or *--help* for a usage help
 
 **Example**
 
-`java -jar .\build\libs\SecureRandomGenerator-1.0.0.jar 64 ABCDEFG1234567890`
+`java -jar .\build\libs\SecureRandomGenerator-1.0.1.jar 64 ABCDEFG1234567890`
 
 **Output**
 
@@ -37,7 +37,7 @@ From the command line, go to the directory containing the application.
 
 ```
 >mvn clean package
->java -jar .\target\SecureRandomGenerator-1.0.0.jar length_of_string [characters_to_use]
+>java -jar .\target\SecureRandomGenerator-1.0.1.jar length_of_string [characters_to_use]
 ```
 *length\_of\_string*: a positive whole number indicating the length of the string to generate
 *characters\_to\_use*: an optional string containing the characters to use in the string
@@ -46,7 +46,7 @@ Use *-h* or *--help* for a usage help
 
 **Example**
 
-`java -jar .\target\SecureRandomGenerator-1.0.0.jar 64 ABCDEFG1234567890`
+`java -jar .\target\SecureRandomGenerator-1.0.1.jar 64 ABCDEFG1234567890`
 
 **Output**
 >Generated String: 5B9GADAG7A4501E26E4G285139G5EBF1FAFBGDEA7B67AAG73F012GA60B1FC4FD
