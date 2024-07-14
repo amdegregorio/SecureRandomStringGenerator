@@ -14,7 +14,7 @@ apply plugin: 'org.junit.platform.gradle.plugin'
 
 jar {
     baseName = 'SecureRandomStringGenerator'
-    version =  '1.0.0'
+    version =  '1.0.1'
     manifest {
         attributes 'Main-Class': 'amdegregorio.securerandomstring.SecureRandomStringGenerator'
     }
@@ -31,7 +31,7 @@ targetCompatibility = 1.8
 
 dependencies {
     testCompile (
-       'com.google.guava:guava:25.0-jre'
+       'com.google.guava:guava:33.2.1-jre'
     )
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.1'
     testRuntimeOnly(
